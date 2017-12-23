@@ -41,7 +41,9 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+            "@php -r \"file_exists('database/factories') || mkdir('database/factories');\"",
+            "@php -r \"file_exists('database/migrations') || mkdir('database/migrations');\""
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate"
