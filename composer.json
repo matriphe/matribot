@@ -1,5 +1,5 @@
 {
-    "name": "matriphe/larabot",
+    "name": "matriphe/matribot",
     "description": "Matriphe bot application skeleton based on Laravel.",
     "keywords": ["bot", "laravel"],
     "license": "MIT",
