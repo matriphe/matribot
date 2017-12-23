@@ -7,7 +7,7 @@ Matribot is a simple basic skeleton application to build bot that based on Larav
 Using `composer` run this command.
 
 ```
-composer create-project matriphe/matribot {your_application_path}
+composer create-project matriphe/matribot {your_application_path} --prefer-dist
 ```
 
 Now you can use Matribot just like using Laravel application.

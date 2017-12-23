@@ -10,7 +10,8 @@
         "irazasyed/telegram-bot-sdk": "^3.0",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
-        "propaganistas/laravel-intl": "dev-master"
+        "propaganistas/laravel-intl": "dev-master",
+        "webpatser/laravel-uuid": "dev-master"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -56,5 +57,6 @@
         "sort-packages": true,
         "optimize-autoloader": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
